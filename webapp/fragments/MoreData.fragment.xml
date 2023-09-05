@@ -1,0 +1,17 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                         xmlns="sap.m"
+                         xmlns:f="sap.ui.layout.form">
+                         
+   <f:SimpleForm id="myForm" editable="true" >
+     <f:content>
+      <Label text="Supplier Id"></Label>
+      <Input enabled="false" width="50%" value="{To_Supplier/BpId}"></Input>
+      <Label text="Supplier Name" ></Label>
+      <Input enabled="false" width="50%" value="{To_Supplier/CompanyName}"></Input>
+      <Label text="Supplier City"></Label>
+      <Input enabled="false" width="50%" value="{To_Supplier/City}"></Input>
+      <Label text="Supplier Number"></Label>
+      <Input enabled="false" width="50%" value="{To_Supplier/PhoneNumber}"></Input>
+     </f:content>
+   </f:SimpleForm>
+</core:FragmentDefinition>

@@ -1,0 +1,301 @@
+{
+	"fruits": [
+        {
+		"name": "Grapefruit",
+		"price": 100,
+		"unit": "PC",
+		"benefit": "Weight Loss",
+		"type": "Citrus",
+		"availability": "available",
+		"color": "pink",
+		"photo": "https://snaped.fns.usda.gov/sites/default/files/styles/crop_ratio_7_5/public/seasonal-produce/2018-05/grapes_0.jpg?itok=uYYnmpTm"
+	}, {
+		"name": "Pineapple",
+		"price": 50,
+		"unit": "PC",
+		"benefit": "Protect against cancer and tumor growth",
+		"type": "Alkaline",
+		"availability": "available",
+		"color": "yellow and green",
+		"photo": "https://timesofindia.indiatimes.com/thumb/msid-69876233,imgsize-506233,width-800,height-600,resizemode-4/69876233.jpg"
+	}, {
+		"name": "Avocado",
+		"price": 90,
+		"unit": "PC",
+		"benefit": "Good for Heart",
+		"type": "Alkaline",
+		"availability": "available",
+		"color": "green",
+		"photo": "https://cleananddelicious.com/wp-content/uploads/2016/03/Avocad0-CD.jpg"
+	}, {
+		"name": "Blueberries",
+		"price": 150,
+		"unit": "KG",
+		"benefit": "High in Fiber",
+		"type": "Alkaline",
+		"availability": "available",
+		"color": "blue",
+		"photo": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/blueberries-1527711083.jpg"
+	}, {
+		"name": "Apple",
+		"price": 10,
+		"unit": "KG",
+		"benefit": "Highly Nutritious",
+		"type": "",
+		"availability": "available",
+		"color": "red",
+		"photo": "https://5.imimg.com/data5/YY/EN/MY-8155364/fresh-apple-500x500.jpg"
+	}, {
+		"name": "Pomegranate",
+		"price": 80,
+		"unit": "KG",
+		"benefit": "Reduce risk of cancer",
+		"type": "Alkaline",
+		"availability": "available",
+		"color": "red",
+		"photo": "https://scx2.b-cdn.net/gfx/news/hires/2019/pomegranate.jpg"
+	}, {
+		"name": "Mango",
+		"price": 60,
+		"unit": "KG",
+		"benefit": "Excellent source of Vitamin C",
+		"type": "Alkaline",
+		"availability": "available",
+		"color": "yellow",
+		"photo": "https://cdn.shopify.com/s/files/1/1891/6405/products/shop-online-from-sri-lanka-fruits-yellow-mango-fresh-food-in-dubai-and-abu-dhabi-1129587179560_grande.jpg?v=1536789602"
+	}, {
+		"name": "Strawberries",
+		"price": 80,
+		"unit": "KG",
+		"benefit": "Control your blood sugar levels ",
+		"type": "Berries",
+		"availability": "available",
+		"color": "red",
+		"photo": "https://www.eatright.org/-/media/eatrightrecipeimages/strawberry-chocolate-ladybugs-881906660.jpg?h=450&w=600&la=en&hash=A96529E16CB5AE81042F9F24C45A5823226117A1"
+	}, {
+		"name": "Cranberries",
+		"price": 100,
+		"unit": "KG",
+		"benefit": "Prevent urinary tract infections",
+		"type": "Berries",
+		"availability": "available",
+		"color": "red",
+		"photo": "https://cdn.britannica.com/10/187210-050-205CC3DD/cranberries.jpg"
+	}, {
+		"name": "Durian",
+		"price": 700,
+		"unit": "KG",
+		"benefit": "Rich in nutrients",
+		"type": "Alkaline",
+		"availability": "available",
+		"color": "green",
+		"photo": "https://www.google.co.in/imgres?imgurl=https%3A%2F%2F4.imimg.com%2Fdata4%2FKW%2FGT%2FMY-9861216%2Fdurian-fruit-500x500.jpg&imgrefurl=https%3A%2F%2Fwww.indiamart.com%2Fproddetail%2Fdurian-fruit-12676665430.html&docid=wsYhnhLPUaWhMM&tbnid=Og_bd31vg4AelM%3A&vet=10ahUKEwitrNDB3djdAhUJU30KHVnaBqkQMwjnAigCMAI..i&w=500&h=351&bih=604&biw=1280&q=durian&ved=0ahUKEwitrNDB3djdAhUJU30KHVnaBqkQMwjnAigCMAI&iact=mrc&uact=8"
+	}, {
+		"name": "Watermelon",
+		"price": 100,
+		"unit": "PC",
+		"benefit": "High in water, nutrients and antioxidants",
+		"type": "pulpy",
+		"availability": "available",
+		"color": "green",
+		"photo": "https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fwww.naturalfoodseries.com%2Fwp-content%2Fuploads%2F2017%2F08%2FWatermelon-800x416.jpg&imgrefurl=https%3A%2F%2Fwww.naturalfoodseries.com%2F13-benefits-watermelon%2F&docid=IIwBlLRWOgWuSM&tbnid=Jb4wipJllusQuM%3A&vet=10ahUKEwjj0Y_W3djdAhWBfX0KHSWsCQwQMwj8AygDMAM..i&w=800&h=416&bih=604&biw=1280&q=watermelon&ved=0ahUKEwjj0Y_W3djdAhWBfX0KHSWsCQwQMwj8AygDMAM&iact=mrc&uact=8"
+	}, {
+		"name": "Olives",
+		"price": 500,
+		"unit": "KG",
+		"benefit": "Reduce the risk of heart disease, cancer and osteoporosise",
+		"type": "Alkaline",
+		"availability": "available",
+		"color": "green",
+		"photo": "https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fimage.shutterstock.com%2Fimage-photo%2Flong-olive-branch-isolated-on-260nw-768184459.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Folive%2Bfruit&docid=fEhk0bjBb8nOkM&tbnid=geFD8DosSsKz_M%3A&vet=10ahUKEwihh-ePvtjdAhWTTn0KHUNZA0sQMwj8ASgDMAM..i&w=354&h=280&hl=en-IN&bih=604&biw=1280&q=olive%20fruit&ved=0ahUKEwihh-ePvtjdAhWTTn0KHUNZA0sQMwj8ASgDMAM&iact=mrc&uact=8"
+	}, {
+		"name": "Blackberries",
+		"price": 6000,
+		"unit": "KG",
+		"benefit": "Lower the risk of chronic disease",
+		"type": "Berries",
+		"availability": "available",
+		"color": "black",
+		"photo": "https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fwishfarms.com%2Fwp-content%2Fuploads%2F2016%2F09%2Fblackberry-hero.jpg&imgrefurl=https%3A%2F%2Fwishfarms.com%2Four-berries%2Fblackberries%2F&docid=I23pr1ZQz4tSGM&tbnid=8XQAqgZ6lMFiZM%3A&vet=10ahUKEwjaybH33djdAhXVQ30KHae1CcIQMwjTAigCMAI..i&w=686&h=478&bih=604&biw=1280&q=blackberries&ved=0ahUKEwjaybH33djdAhXVQ30KHae1CcIQMwjTAigCMAI&iact=mrc&uact=8"
+	}, {
+		"name": "Oranges",
+		"price": 120,
+		"unit": "KG",
+		"benefit": "Reduce the risk of several conditions such as kidney stones",
+		"type": "Citrus",
+		"availability": "available",
+		"color": "yellow",
+		"photo": "https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F7b%2FOrange-Whole-%2526-Split.jpg%2F1200px-Orange-Whole-%2526-Split.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOrange_(fruit)&docid=INFbWg-h77makM&tbnid=zrlME9TeZpUx4M%3A&vet=10ahUKEwiloMWC3tjdAhXOTX0KHSwnA7EQMwjcAigBMAE..i&w=1200&h=626&bih=604&biw=1280&q=oranges&ved=0ahUKEwiloMWC3tjdAhXOTX0KHSwnA7EQMwjcAigBMAE&iact=mrc&uact=8"
+	}, {
+		"name": "Bananas",
+		"price": 100,
+		"unit": "KG",
+		"benefit": "Blood sugar control and digestive health",
+		"type": "Alkaline",
+		"availability": "available",
+		"color": "yellow",
+		"photo": "https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fimg.purch.com%2Frc%2F300x200%2FaHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA2NS8xNDkvb3JpZ2luYWwvYmFuYW5hcy5qcGc%3D&imgrefurl=https%3A%2F%2Fwww.livescience.com%2F45005-banana-nutrition-facts.html&docid=aCmLYEGvNNOXNM&tbnid=4l9bQp0zZcNA7M%3A&vet=10ahUKEwj1yJSO3tjdAhUNfH0KHdeDD_AQMwiwAygDMAM..i&w=300&h=200&bih=604&biw=1280&q=bananas&ved=0ahUKEwj1yJSO3tjdAhUNfH0KHdeDD_AQMwiwAygDMAM&iact=mrc&uact=8"
+	}, {
+		"name": "Grapes",
+		"price": 200,
+		"unit": "KG",
+		"benefit": "Decrease inflammation",
+		"type": "Berries",
+		"availability": "available",
+		"color": "red",
+		"photo": "https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fwww.naturalfoodseries.com%2Fwp-content%2Fuploads%2F2018%2F01%2FRed-Grapes-800x416.jpg&imgrefurl=https%3A%2F%2Fwww.naturalfoodseries.com%2F13-health-benefits-red-grapes%2F&docid=8MesNEeX5ED-JM&tbnid=82L2b-iBlJB4HM%3A&vet=10ahUKEwjvio-Z3tjdAhURbysKHbpRCT8QMwjTAygKMAo..i&w=800&h=416&bih=604&biw=1280&q=grapes&ved=0ahUKEwjvio-Z3tjdAhURbysKHbpRCT8QMwjTAygKMAo&iact=mrc&uact=8"
+	}, {
+		"name": "Guava",
+		"price": 80,
+		"unit": "KG",
+		"benefit": "Help prevent certain cancers",
+		"type": "Alkaline",
+		"availability": "available",
+		"color": "green",
+		"photo": "https://www.google.co.in/imgres?imgurl=http%3A%2F%2Fwww.chhajedgarden.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2F1%2Fimage%2F600x770%2F9df78eab33525d08d6e5fb8d27136e95%2Fg%2Fu%2Fguava_pink.jpg&imgrefurl=http%3A%2F%2Fwww.chhajedgarden.com%2Fguava-pink-fruit-plant.html&docid=QEo9i6rz8IImsM&tbnid=1eepH9v1_h1YEM%3A&vet=10ahUKEwiU_Pql3tjdAhWXWysKHQWcCf0QMwi7AygOMA4..i&w=600&h=770&bih=604&biw=1280&q=guava&ved=0ahUKEwiU_Pql3tjdAhWXWysKHQWcCf0QMwi7AygOMA4&iact=mrc&uact=8"
+	}, {
+		"name": "Papaya",
+		"price": 60,
+		"unit": "KG",
+		"benefit": "Reduce your risk of cancer and improve digestion",
+		"type": "Alkaline",
+		"availability": "available",
+		"color": "green",
+		"photo": "https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fwww.thespruceeats.com%2Fthmb%2FU063j6z2BcnEv3zimFASMTVnPLs%3D%2F1500x1000%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2FPapayas-56a499e05f9b58b7d0d7bd78.jpg&imgrefurl=https%3A%2F%2Fwww.thespruceeats.com%2Fpapaya-pie-with-graham-cracker-crust-1808408&docid=LKzW3QJ80dUo2M&tbnid=T24C17ugd6GAuM%3A&vet=10ahUKEwjg4o643tjdAhULfCsKHWeqCv0QMwjwAigHMAc..i&w=1500&h=1000&bih=604&biw=1280&q=papaya&ved=0ahUKEwjg4o643tjdAhULfCsKHWeqCv0QMwjwAigHMAc&iact=mrc&uact=8"
+	}, {
+		"name": "Cherries",
+		"price": 300,
+		"unit": "KG",
+		"benefit": "Improve the quality of your sleep",
+		"type": "Berries",
+		"availability": "available",
+		"color": "red",
+		"photo": "https://www.google.co.in/imgres?imgurl=https%3A%2F%2Fwww.pittmandavis.com%2Fimages%2Fxl%2Fbing-cherries-bc1.jpg%3Fv%3D100003353897-1&imgrefurl=https%3A%2F%2Fwww.pittmandavis.com%2Fbing-cherries%2Fp%2Fbingcherries%2F&docid=pdkwfdjJYOQsiM&tbnid=l9unpvY_eYq-yM%3A&vet=10ahUKEwj1zurA3tjdAhWaeysKHQYaD0gQMwjoAigJMAk..i&w=887&h=668&bih=604&biw=1280&q=cherries&ved=0ahUKEwj1zurA3tjdAhWaeysKHQYaD0gQMwjoAigJMAk&iact=mrc&uact=8"
+	}],
+	"suppliers": [
+        {
+			"name": "Sivasai Fruits",
+			"city": "Hyderabad",
+			"sincewhen": "1967",
+			"country": "India",
+			"contactPerson": "Ramesh",
+			"operatingHours": "9 AM - 7 PM"
+		}, {
+			"name": "Mahaveer Fruits and Vegetables",
+			"city": "Mumbai",
+			"sincewhen": "1972",
+			"country": "India",
+			"contactPerson": "Pyarelal",
+			"operatingHours": "8 AM - 8 PM"
+		}, {
+			"name": "Veersagar Wholesale Fruits",
+			"city": "Bangalore",
+			"sincewhen": "1956",
+			"country": "India",
+			"contactPerson": "Deva Gowda",
+			"operatingHours": "9 AM - 8 PM"
+		}, {
+			"name": "Manohara Fruit Suppliers",
+			"city": "Kolkata",
+			"sincewhen": "1977",
+			"country": "India",
+			"contactPerson": "Anirudh Roy",
+			"operatingHours": "8 AM - 7 PM"
+		}, {
+			"name": "Ayyar Wholesale Fruits and Vegetables",
+			"city": "Chennai",
+			"sincewhen": "1949",
+			"country": "India",
+			"contactPerson": "Vindya Ayyar",
+			"operatingHours": "7 AM - 7 PM"
+		}, {
+			"name": "Manikant Fruit Vendor",
+			"city": "Pune",
+			"sincewhen": "1985",
+			"country": "India",
+			"contactPerson": "Manikant",
+			"operatingHours": "8 AM - 7 PM"
+		}, {
+			"name": "Patel Sons Fruits and Vegetables",
+			"city": "Ahmedabad",
+			"sincewhen": "1960",
+			"country": "India",
+			"contactPerson": "Promod Patel",
+			"operatingHours": "11 AM - 7 PM"
+		}, {
+			"name": "S Naresh Kumar and Sons Fruits",
+			"city": "Delhi",
+			"sincewhen": "1988",
+			"country": "India",
+			"contactPerson": "Naresh",
+			"operatingHours": "10 AM - 8 PM"
+		}, {
+			"name": "JDS and SKS Fruits Wholesale",
+			"city": "Bhuvaneswar",
+			"sincewhen": "1955",
+			"country": "India",
+			"contactPerson": "Jagdish Kumar",
+			"operatingHours": "10 AM - 7 PM"
+		}, {
+			"name": "RGB Vegetable and Fruits",
+			"city": "Nagpur",
+			"sincewhen": "1963",
+			"country": "India",
+			"contactPerson": "Rabindranath",
+			"operatingHours": "10 AM - 8 PM"
+		}
+
+	],
+	"cities": [
+        {
+		"cityname": "Mumbai",
+		"famous": "Apple",
+		"state": "Himachal Pradesh",
+		"remarks": "Apple bowl of India"
+	}, {
+		"cityname": "Pune",
+		"famous": "Grape",
+		"state": "Maharashtra",
+		"remarks": "Grape capital of India"
+	}, {
+		"cityname": "Bangalore",
+		"famous": "Pomegranate",
+		"state": "Maharashtra",
+		"remarks": "Famous for Cultivation of Pomegranate and proving to be a profitable cultivation even in drought region area"
+	}, {
+		"cityname": "Nagpur",
+		"famous": "Orange",
+		"state": "Maharashtra",
+		"remarks": "Orange City of India"
+	}, {
+		"cityname": "Mahabaleshwar",
+		"famous": "Strawberry",
+		"state": "Maharashtra",
+		"remarks": "Mahabaleshwar is also famous for honey and mulberries"
+	}, {
+		"cityname": "Ratnagiri",
+		"famous": "Mango",
+		"state": "Maharashtra",
+		"remarks": "Ratnagiri Alphonso mangoes are world’s best mangoes"
+	}, {
+		"cityname": "Siliguri",
+		"famous": "Pinapple",
+		"state": "West Bengal",
+		"remarks": "Popular for its seasonal fruits of Pineapples"
+	}, {
+		"cityname": "Jalgaon",
+		"famous": "Banana",
+		"state": "Maharashtra",
+		"remarks": "Largest Banana producers in the world"
+	}, {
+		"cityname": "Allahabad",
+		"famous": "Guava",
+		"state": "Uttar Pradesh",
+		"remarks": "An area of 2.03 lac hectares is used for guava production in Allahabad"
+	}, {
+		"cityname": "Anantapur",
+		"famous": "Papaya",
+		"state": "Andhra Pradesh",
+		"remarks": "Papaya is one of the major fruit growing in the region along with sweet orange"
+	}]
+}

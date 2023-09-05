@@ -1,0 +1,31 @@
+<edmx:Edmx
+    xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx"
+    xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+    xmlns:sap="http://www.sap.com/Protocols/SAPData" Version="1.0">
+    <edmx:DataServices m:DataServiceVersion="2.0">
+        <Schema
+            xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="ZGWP_ALS_PRODUCTS_SRV" xml:lang="en" sap:schema-version="1">
+            <EntityType Name="ETY_PRODHEADER" sap:content-version="1">
+                <Key>
+                    <PropertyRef Name="ProductId"/>
+                </Key>
+                <Property Name="ProductId" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Product ID" sap:updatable="false"/>
+                <Property Name="TypeCode" Type="Edm.String" MaxLength="2" sap:unicode="false" sap:label="Type Code" sap:filterable="false"/>
+                <Property Name="Category" Type="Edm.String" MaxLength="40" sap:unicode="false" sap:label="Category"/>
+                <Property Name="Name" Type="Edm.String" MaxLength="255" sap:unicode="false" sap:label="Description" sap:filterable="false"/>
+                <Property Name="Description" Type="Edm.String" MaxLength="255" sap:unicode="false" sap:label="Description" sap:filterable="false"/>
+                <Property Name="SupplierId" Type="Edm.String" MaxLength="10" sap:unicode="false" sap:label="Business Partner ID" sap:filterable="false"/>
+                <Property Name="SupplierName" Type="Edm.String" MaxLength="80" sap:unicode="false" sap:label="Company" sap:filterable="false"/>
+                <Property Name="Price" Type="Edm.Decimal" Precision="23" Scale="4" sap:unicode="false" sap:label="Price" sap:filterable="false"/>
+                <Property Name="CurrencyCode" Type="Edm.String" MaxLength="5" sap:unicode="false" sap:label="Currency Code" sap:filterable="false" sap:semantics="currency-code"/>
+            </EntityType>
+            <EntityContainer Name="ZGWP_ALS_PRODUCTS_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
+                <EntitySet Name="ETS_PRODHEADER" EntityType="ZGWP_ALS_PRODUCTS_SRV.ETY_PRODHEADER" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+            </EntityContainer>
+            <atom:link
+                xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="./sap/ZGWP_ALS_PRODUCTS_SRV/$metadata"/>
+                <atom:link
+                    xmlns:atom="http://www.w3.org/2005/Atom" rel="latest-version" href="./sap/ZGWP_ALS_PRODUCTS_SRV/$metadata"/>
+                </Schema>
+            </edmx:DataServices>
+        </edmx:Edmx>

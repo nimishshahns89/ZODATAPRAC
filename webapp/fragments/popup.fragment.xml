@@ -1,0 +1,18 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                         xmlns="sap.m">
+ <!--onConfirm event coded in the View2 controller will not be triggered initially, since the
+   fragment does not know where the event is placed
+   To handle this issue, we need to pass the controller object(this) while instantiating the fragment in
+   View2 controller-->
+ 
+ <!--Requirement- Set the value selected in the Popup to the table input field -->
+<!--Requirement- On selection of all cities once user clicks on ok button, The table below 
+should only show suppliers who belongs to selected cities in the popup. -->
+ <SelectDialog id="idDialog"
+               multiSelect="true"
+               confirm="onConfirm"
+               search="onPopupSearch"
+               cancel="onCancel"
+               rememberSelections="true"> </SelectDialog>
+
+</core:FragmentDefinition>

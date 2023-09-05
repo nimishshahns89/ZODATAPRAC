@@ -1,0 +1,30 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                         xmlns:f="sap.ui.layout.form"
+                         xmlns="sap.m">
+
+     <f:SimpleForm editable="true" >
+     <!--Select Control  -->
+     <Label text="Select Control Example"></Label>
+     <Select items="{/cities}">
+       <items>
+         <core:Item key="{cityname}" text="{cityname}"> </core:Item>
+       </items>
+     </Select>
+
+      <!--ComboBox Control  -->
+     <Label text="ComboBox Control Example"></Label>
+     <ComboBox items="{/cities}">
+       <items>
+         <core:Item key="{cityname}" text="{cityname}"> </core:Item>
+       </items>
+     </ComboBox>
+
+      <!--Select Control  -->
+     <Label text="MultiComboBox Control Example"></Label>
+     <MultiComboBox items="{/cities}">
+       <items>
+         <core:Item key="{cityname}" text="{cityname}"> </core:Item>
+       </items>
+     </MultiComboBox>
+     </f:SimpleForm>    
+</core:FragmentDefinition>

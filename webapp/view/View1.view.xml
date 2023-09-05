@@ -1,0 +1,35 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+          xmlns:core="sap.ui.core"
+          xmlns="sap.m"
+          controllerName="nim.kmbs.cto.controller.View1">
+
+<Page title="Master Page">
+<content>
+<SearchField id="idSearch" search="onSearch"></SearchField>
+
+<List id="idFruitsList" 
+      growing="true"
+      growingThreshold="10"
+      growingScrollToLoad="true"
+      items="{path: '/ETS_PRODHEADER',
+              sorter: {
+                path: 'ProductId'
+              }
+              }"
+      mode="SingleSelectMaster"
+      selectionChange="onSelect">
+<ObjectListItem intro="{Category}" number="{Price}" numberUnit="{CurrencyCode}" title="{ProductId}"> 
+</ObjectListItem>
+</List>
+</content>
+<footer>
+			<OverflowToolbar>
+				<ToolbarSpacer/>
+				<Button text="Accept" type="Accept" />
+				<Button text="Reject" type="Reject" />
+				<Button text="Add Product" press="onAddView" />
+				<Button icon="sap-icon://expense-report" press="onExpensive" tooltip="Get most Expensive Product"></Button>
+            </OverflowToolbar>
+		</footer>
+</Page>
+</mvc:View>

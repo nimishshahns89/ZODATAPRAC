@@ -1,0 +1,31 @@
+{
+  "generation": [
+    {
+      "templateId": "servicecatalog.connectivityComponent",
+      "templateVersion": "0.0.0",
+      "dateTimeStamp": "Sat, 28 Aug 2021 10:48:44 GMT"
+    }
+  ],
+  "build": {
+    "targetFolder": "dist",
+    "sourceFolder": "webapp",
+    "excludedFolders": [
+      "test"
+    ],
+    "excludedFiles": [
+      "index.html"
+    ],
+    "buildRequired": true
+  },
+  "mockpreview": {
+    "mockUri": "/sap/opu/odata/sap/ZGWP_ALS_PRODUCTS_SRV",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "deploy": {
+    "destination": "S4S",
+    "name": "ZMASTERDETAIL"
+  }
+}

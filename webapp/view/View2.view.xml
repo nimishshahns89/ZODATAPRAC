@@ -1,0 +1,58 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+          xmlns:core="sap.ui.core"
+          xmlns:f="sap.ui.layout.form"
+          xmlns="sap.m"
+          controllerName="nim.kmbs.cto.controller.View2">
+
+<Page title="Details Page" showNavButton="true" navButtonPress="onBack">
+<content>
+<!--Relative Path  -->
+<ObjectHeader id="ObjHeader" 
+              title="{Name}"
+              number="{Price}"
+              numberUnit="{CurrencyCode}"
+              intro="{Category}"
+              >
+    <!--To display other properties in the model, use the attributes aggregation of ObjectHeader  -->
+    <!-- <attributes> 
+      <ObjectAttribute title="Health Benefit" text="{benefit}"> </ObjectAttribute>
+      <ObjectAttribute title="Availability" text="{availability}"> </ObjectAttribute>
+      <ObjectAttribute title="Color" text="{color}"> </ObjectAttribute>
+    </attributes>        -->
+</ObjectHeader >
+
+<!-- Icon Tab Bar example -->
+<IconTabBar id="idIconTabBar">
+ <items>
+<!--Static Fragments - Create and Use, All  the code from here is just shifted to the fragment  -->
+<IconTabFilter icon="sap-icon://warning" text="More Data">
+<core:Fragment fragmentName="nim.kmbs.cto.fragments.MoreData" type="XML" >  </core:Fragment>
+</IconTabFilter>
+
+<IconTabFilter icon="sap-icon://home" text="City">
+<core:Fragment fragmentName="nim.kmbs.cto.fragments.Cities" type="XML" >  </core:Fragment>
+</IconTabFilter>
+
+<IconTabFilter icon="sap-icon://supplier" text="Suppliers">
+<core:Fragment fragmentName="nim.kmbs.cto.fragments.Suppliers" type="XML" >  </core:Fragment>
+</IconTabFilter>
+
+<IconTabFilter icon="sap-icon://picture" text="Product Image">
+<core:Fragment fragmentName="nim.kmbs.cto.fragments.ProductImage" type="XML" >  </core:Fragment>
+</IconTabFilter>
+
+</items>
+</IconTabBar>
+</content>
+
+<footer>  
+<Toolbar >
+ <ToolbarSpacer ></ToolbarSpacer>
+ <Button text="Like" type="Accept"></Button>
+ <Button text="Dislike" type="Reject"></Button>
+ <Button text="Save" icon="sap-icon://save" press="onSave"></Button>
+ <Button icon="sap-icon://delete" press="onDelete" tooltip="Delete this product"></Button>
+</Toolbar>
+</footer>
+</Page>
+</mvc:View>

@@ -1,0 +1,6 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                         xmlns="sap.m">
+	
+<Image id="idMyImage" width="300px" height="300px"></Image>	
+	
+</core:FragmentDefinition>

@@ -1,0 +1,21 @@
+<html>
+<head>
+  <script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+          data-sap-ui-libs="sap.m"
+          data-sap-ui-theme="sap_belize"
+          data-sap-ui-resourceroots='{"nim.kmbs.cto":"./"}'
+          data-sap-ui-bindingSyntax="complex">
+
+  </script>
+  <script>
+    //To test the Component.js locally,create the Component Container Object
+    var oCompCont = new sap.ui.core.ComponentContainer("idCompCont",{
+        name:"nim.kmbs.cto"
+    });
+    oCompCont.placeAt("content");
+  </script>
+</head>
+<body class="sapUiBody">
+    <div id="content"></div>
+</body>
+</html>

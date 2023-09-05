@@ -1,0 +1,60 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core"
+                         xmlns="sap.m">
+   <Table id="suppliertable" items="{/suppliers}">
+   <!--Aggregation 1  -->
+   <headerToolbar> 
+    <Toolbar>
+     <ToolbarSpacer> </ToolbarSpacer>
+     <Button text="Suppliers" icon="sap-icon://filter" press="onFilter"> </Button>
+     <Button text="Hide Column" press="onHide"> </Button>
+    </Toolbar>
+   </headerToolbar>
+   
+   <items>
+    <ColumnListItem >
+     <!--We have 4 columns here, so we will put 4 cells under ColumnListItem control  -->
+     <cells>
+      <Text text="{name}"></Text>
+     </cells>
+     <cells>
+      <Input value="{city}" showValueHelp="true" valueHelpRequest="onF4"></Input>
+     </cells>
+     <cells>
+      <Text text="{country}"></Text>
+     </cells>
+     <cells>
+      <Text text="{contactPerson}"></Text>
+     </cells>
+    </ColumnListItem>
+   </items>
+
+    <columns>
+     <Column>
+      <header>
+       <Label text="Name"></Label>
+      </header>
+     </Column>
+     
+     <Column>
+      <header>
+       <Label text="City"></Label>
+      </header>
+     </Column>
+
+     <Column>
+      <header>
+       <Label text="Country"></Label>
+      </header>
+     </Column>
+
+ <!--Show this column only when minimum screensize is Tablet and above, in mobile it will be hidden  -->
+ <!--demandpopin - Column will be hidden, but ContactPerson will be shown as a field in each row  -->
+     <Column minScreenWidth="Tablet" demandPopin="true">
+      <header>
+       <Label text="Contact Person"></Label>
+      </header>
+     </Column>
+    </columns>
+   </Table>
+
+</core:FragmentDefinition>

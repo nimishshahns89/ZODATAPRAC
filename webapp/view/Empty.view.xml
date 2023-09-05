@@ -1,0 +1,10 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+          xmlns:core="sap.ui.core"
+          xmlns="sap.m"
+          controllerName="nim.kmbs.cto.controller.Empty">
+
+<Page title="Yeh hai mera Empty View">
+<content>
+</content>
+</Page>
+</mvc:View>
