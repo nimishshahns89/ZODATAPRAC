@@ -7,6 +7,7 @@ sap.ui.define(
 			onInit: function() {
 				//Controller does not have the Router Object required for navigation
 				//Only the Component.js file has it
+				//NPS Change1 from ZODATAPRAC Project 
 				this.oRouter = this.getOwnerComponent().getRouter();
 				this.oRouter.attachRoutePatternMatched(this.herculis, this);
 			},
